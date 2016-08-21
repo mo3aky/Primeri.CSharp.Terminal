@@ -11,7 +11,7 @@ namespace Module02
 			int sum = 0;
 
 			//Събиране на числа
-			a = 55;
+			a = 5;
 			b = 10;
 			sum = a + b;
 				
@@ -22,6 +22,28 @@ namespace Module02
 			Console.Write (b);
 			Console.Write (" = ");
 			Console.WriteLine( sum );
+
+			//Допълнителни редове
+			Console.WriteLine ("\nСъбиране");
+				a +=b;
+				Console.WriteLine (a);
+
+			Console.WriteLine ("\nИзваждане");
+			a -=b;
+			Console.WriteLine (a);
+
+			Console.WriteLine ("\nУмножение");
+			a *=b;
+			Console.WriteLine (a);
+
+			Console.WriteLine ("\nДобавяне на единица");
+			a++;
+			Console.WriteLine (a);
+
+			Console.WriteLine ( "Стандартно делене: " +  ( 7 / 3 ).ToString()); 
+			Console.WriteLine ( "Остатък: "  + ( 7 % 3 ).ToString()); 
+
+
 		}
 	}
 }
