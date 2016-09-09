@@ -26,6 +26,15 @@ namespace ReadFromCommandLine
 			Console.WriteLine ("Работа с Replace " + test + "\n\n");
 
 			Console.WriteLine ("3-ти знак " + test.Split(';')[2] + "\n");
+
+			string edno = "Hello";
+			string dve = "World";
+			object tri = edno + dve;
+
+			string pet = "type";
+
+			Console.WriteLine (tri + "\n\n");
+		
 		}
 	}
 }
